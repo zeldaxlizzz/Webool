@@ -15,7 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  background-color: #c166d7;
+  /*background-color: #c166d7;*/
 }
 
 /*
@@ -262,3 +262,38 @@ textarea {
   }
 }
 
+.tint-main{
+  background-color: #c166d7 !important;
+  color: white;
+}
+
+.nav-bar button{
+  margin: 0 5px;
+}
+
+.colonyfy{
+  color: darkblue;
+  font-weight: bold;
+  width: 150px;
+  font-size: 18px;
+}
+
+.photo-container{
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+}
+.photo-container img{
+  display: block;
+  width: 70%;
+  margin: 15px auto 5px auto;
+}
+
+.photo-item{
+}
+
+div[class*='spacer-'] { display: block; }
+.spacer-mini { height: 20px; }
+.spacer-small { height: 40px; }
+.spacer-medium { height: 60px; }
+.spacer-big { height: 100px; }

@@ -15,7 +15,6 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
-  /*background-color: #c166d7;*/
 }
 
 /*
@@ -272,7 +271,7 @@ textarea {
 }
 
 .colonyfy{
-  color: darkblue;
+  color: darkblue !important;
   font-weight: bold;
   width: 150px;
   font-size: 18px;
@@ -282,18 +281,107 @@ textarea {
   vertical-align: top;
   display: inline-block;
   text-align: center;
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 20px !important;
 }
 .photo-container img{
   display: block;
-  width: 70%;
+  width: 80%;
+  height: 170px;
   margin: 15px auto 5px auto;
 }
 
-.photo-item{
+.gif img{
+  float: right !important;
 }
 
-div[class*='spacer-'] { display: block; }
-.spacer-mini { height: 20px; }
-.spacer-small { height: 40px; }
-.spacer-medium { height: 60px; }
-.spacer-big { height: 100px; }
+.space{
+  margin-bottom: 10px !important;
+}
+
+.header{
+  text-align: center;
+  background-color: #000fff;
+  color: #f4ef2b;
+  font-family: Arial;
+}
+
+.fashion-body{
+  background-image: linear-gradient(cyan, #c166d7);
+  height:85vh;
+}
+
+.fashion-body img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+.fashion-body button{
+  /*margin: 0;*/
+  position: absolute;
+  bottom: -50%;
+  right: 50%;
+  background-color: forestgreen;
+}
+
+.fashion-body a button:hover{
+  margin-left: 10px;
+  background-color: darkgreen !important;
+  text-decoration: underline;
+
+}
+
+#fashion-block{
+  display: none;
+}
+
+.item-table td{
+  width: 300px;
+  background-color: ivory;
+  text-align: center;
+  padding: 30px 10px 10px 10px;
+    color: firebrick !important;
+
+}
+
+.tint-cyan{
+  background-color: cyan !important;
+}
+
+.hidden-table table {
+  border-collapse: collapse;
+  width: 20%;
+}
+.hidden-table th {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: #a8a8a8;
+}
+.hidden-table td{
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  background-color: white;
+}
+
+#hidden-table table tr:hover {background-color:#a8a8a8;}
+
+#hidden-table{
+  display: none;
+}
+
+.tint-green{
+  background-image: linear-gradient(cyan, lime);
+}
+
+.tint-green button{
+  position: absolute;
+  bottom: -20%;
+  right: 50%;
+  background-color: forestgreen;
+}

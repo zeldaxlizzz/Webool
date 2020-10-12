@@ -1,0 +1,86 @@
+ <!DOCTYPE html>
+  <html>
+ <head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+ </head>
+
+ <body class="tint-cyan">
+  <div class="container">
+    <div class="col-sm-8 tint-green">
+           <h1 style="color: darkred;">Webool</h1>
+      <form method="post" action="submit.html" id="my-form">
+          <div class="form-group row">
+            <label for="inputName" class="col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-4" style="float: right">
+              <input type="text" class="form-control" id="inputName" placeholder="Your Name" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="address" class="col-sm-3 col-form-label">Address</label>
+            <div class="col-sm-4" style="float: right">
+              <textarea id="address" placeholder="Your Address" rows="10" cols="30" required></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="pincode" class="col-sm-3 col-form-label">PinCode</label>
+            <div class="col-sm-4" style="float: right">
+              <input type="text" class="form-control" placeholder="PinCode" id="pincode" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="number" class="col-sm-3 col-form-label">Phone Number</label>
+            <div class="col-sm-4" style="float: right">
+              <input type="text" class="form-control" placeholder="phonenumber" id="number" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="email" class="col-sm-3 col-form-label">Email</label>
+            <div class="col-sm-4" style="float: right">
+              <input type="email" class="form-control" placeholder="email" id="email" required>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="exampleFormControlSelect1">Payment Method</label>
+          </div>
+            <div class="col-sm-4" style="float: right">
+            <select class="form-control" id="exampleFormControlSelect1" required>
+              <option>Cash on Delivery</option>
+              <option>Net banking</option>
+              <option>Credit Card</option>
+              <option>Debit Card</option>
+            </select>
+          </div>
+          <div class="form-group row">
+            <label class="col-sm-3 col-form-label" for="exampleFormControlSelect2">City</label>
+          </div>
+            <div class="col-sm-4" style="float: right">
+            <select class="form-control" id="exampleFormControlSelect2" required>
+              <option>Thrissur</option>
+              <option>Ernakulam</option>
+              <option>Kollam</option>
+              <option>Kannur</option>
+            </select>
+          </div>
+      </form>
+          <button type="submit" form="my-form">Submit</button>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ </body>
+  <html>
